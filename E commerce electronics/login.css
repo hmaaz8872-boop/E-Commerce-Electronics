@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #061a3d, #0755dc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.login-box {
+    background: white;
+    max-width: 430px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px #00133355;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo h1 {
+    color: #0755dc;
+    font-size: 28px;
+}
+
+.logo h2 {
+    color: #10264d;
+    font-size: 22px;
+}
+
+.login-box > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #10264d;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+form input:focus {
+    border-color: #0755dc;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 25px;
+    gap: 8px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+
+.options input {
+    width: auto;
+    margin: 0;
+}
+
+.options a {
+    color: #0755dc;
+    text-decoration: none;
+}
+
+form button {
+    width: 100%;
+    padding: 14px;
+    background: #0755dc;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #063b9d;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #0755dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-link {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #0755dc;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+
+    .login-box {
+        padding: 25px 20px;
+    }
+
+}
